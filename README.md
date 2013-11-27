@@ -14,7 +14,7 @@ E' inoltre necessario scaricare l'SDK di Metaio e linkarlo al progetto.
 4. Scaricare l'applicazione Toolbox e creare la mappa 3D http://dev.metaio.com/sdk/toolbox/
 5. Spostare la mappa appena creata (è un file con estensione .3dmap) nella cartella **assets** del progetto
 6. Aprire il file Camera.java e sostituire la mappa 3D appena creata alla riga 69 
-    String trackingConfigFile = AssetsManager.getAssetPath("tuofile.3dmap");
+    ```String trackingConfigFile = AssetsManager.getAssetPath("tuofile.3dmap");```
 7. Il vaso viene visualizzato nel punto (0,0) del sistema di riferimento della mappa.
 8. Fare il Build del progetto ed eseguirlo su un dispositivo
 
